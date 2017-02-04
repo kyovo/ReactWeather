@@ -13,7 +13,7 @@ module.exports = {
       if(res.data.cod === '404'){
         throw new Error(res.data.message);
       }else{
-        return res.data;
+        return {temp: res.data.main.temp, location: res.data.name};
       }
     }, function(res){
       debugger;
