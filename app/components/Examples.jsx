@@ -10,7 +10,7 @@ var {Link} = require('react-router');
 
 var Examples = (props) => (
   <div>
-    <h1 className="text-center">Ejemplos</h1>
+    <h1 className="text-center page-title">Ejemplos</h1>
     <p>Here are a few example locations to try out:</p>
     <ol>
       <li>

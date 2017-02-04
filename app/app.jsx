@@ -6,8 +6,12 @@ const React = require('react'),
       About = require('About'),
       Examples = require('Examples');
 
+//Load fundation
 require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
+
+//App css
+require('style!css!aplicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
